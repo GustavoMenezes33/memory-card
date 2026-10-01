@@ -20,10 +20,10 @@ from pathlib import Path
 
 import pytest
 
-from segundo_cerebro.classificacao import adaptador as A
-from segundo_cerebro.classificacao import erros as ERR
-from segundo_cerebro.classificacao import fronteira as F
-from segundo_cerebro.classificacao import validacao as V
+from memory_card.classificacao import adaptador as A
+from memory_card.classificacao import erros as ERR
+from memory_card.classificacao import fronteira as F
+from memory_card.classificacao import validacao as V
 
 TIPOS = ("ideia", "insight", "tarefa", "referencia", "duvida")
 

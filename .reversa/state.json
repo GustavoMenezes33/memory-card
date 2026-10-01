@@ -1,6 +1,6 @@
 {
   "version": "1.2.58",
-  "project": "segundocerebro",
+  "project": "memorycard",
   "user_name": "Gustavo",
   "chat_language": "pt-br",
   "doc_language": "Português",
@@ -29,7 +29,7 @@
       "drafter",
       "spec-sdd"
     ],
-    "brief": "Sistema de captura de insights por voz em mobilidade, com transcricao e classificacao por IA, a partir da sessao de ideacao 001-segundo-cerebro-anotacoes (Opcao C)"
+    "brief": "Sistema de captura de insights por voz em mobilidade, com transcricao e classificacao por IA, a partir da sessao de ideacao 001-memory-card-anotacoes (Opcao C)"
   },
   "engines": [
     "claude-code"

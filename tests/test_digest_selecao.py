@@ -13,9 +13,9 @@ from __future__ import annotations
 
 from datetime import datetime, timedelta, timezone
 
-from segundo_cerebro.acervo.indice import EntradaIndice
-from segundo_cerebro.digest import montagem as MO
-from segundo_cerebro.digest.selecao import selecionar
+from memory_card.acervo.indice import EntradaIndice
+from memory_card.digest import montagem as MO
+from memory_card.digest.selecao import selecionar
 
 BASE = datetime(2026, 8, 1, 10, 0, tzinfo=timezone.utc)
 

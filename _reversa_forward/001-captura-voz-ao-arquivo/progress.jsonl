@@ -1,62 +1,62 @@
-{"ts": "2026-08-11T19:33:31Z", "action": "T001", "status": "done", "files": ["pyproject.toml", "segundo_cerebro/__init__.py", "segundo_cerebro/acervo/__init__.py", "segundo_cerebro/transcricao/__init__.py", "segundo_cerebro/classificacao/__init__.py", "segundo_cerebro/fila/__init__.py", "segundo_cerebro/captura/__init__.py", "segundo_cerebro/painel/__init__.py", "segundo_cerebro/digest/__init__.py", "tests/__init__.py"]}
+{"ts": "2026-08-11T19:33:31Z", "action": "T001", "status": "done", "files": ["pyproject.toml", "memory_card/__init__.py", "memory_card/acervo/__init__.py", "memory_card/transcricao/__init__.py", "memory_card/classificacao/__init__.py", "memory_card/fila/__init__.py", "memory_card/captura/__init__.py", "memory_card/painel/__init__.py", "memory_card/digest/__init__.py", "tests/__init__.py"]}
 {"ts": "2026-08-11T19:33:31Z", "action": "T002", "status": "done", "files": [".env.example"]}
 {"ts": "2026-08-11T19:33:31Z", "action": "T003", "status": "done", "files": [".gitignore"]}
-{"ts": "2026-08-11T19:33:31Z", "action": "T004", "status": "done", "files": ["segundo_cerebro/config.py"]}
-{"ts": "2026-08-11T19:33:31Z", "action": "T005", "status": "done", "files": ["segundo_cerebro/config.py"]}
-{"ts": "2026-08-11T19:33:31Z", "action": "T006", "status": "done", "files": ["segundo_cerebro/config.py"]}
-{"ts": "2026-08-11T19:33:31Z", "action": "T007", "status": "done", "files": ["segundo_cerebro/config.py"]}
-{"ts": "2026-08-11T19:33:31Z", "action": "T008", "status": "done", "files": ["segundo_cerebro/log.py"]}
+{"ts": "2026-08-11T19:33:31Z", "action": "T004", "status": "done", "files": ["memory_card/config.py"]}
+{"ts": "2026-08-11T19:33:31Z", "action": "T005", "status": "done", "files": ["memory_card/config.py"]}
+{"ts": "2026-08-11T19:33:31Z", "action": "T006", "status": "done", "files": ["memory_card/config.py"]}
+{"ts": "2026-08-11T19:33:31Z", "action": "T007", "status": "done", "files": ["memory_card/config.py"]}
+{"ts": "2026-08-11T19:33:31Z", "action": "T008", "status": "done", "files": ["memory_card/log.py"]}
 {"ts": "2026-08-11T19:33:31Z", "action": "T009", "status": "done", "files": ["config/prompt_classificacao.txt"]}
-{"ts": "2026-08-11T19:33:31Z", "action": "T010", "status": "done", "files": ["segundo_cerebro/config.py"]}
+{"ts": "2026-08-11T19:33:31Z", "action": "T010", "status": "done", "files": ["memory_card/config.py"]}
 {"ts": "2026-08-11T19:44:57Z", "action": "T011", "status": "done", "files": ["tests/conftest.py", "tests/test_config.py"], "tests_passed": 21}
 {"ts": "2026-08-11T19:44:57Z", "action": "T012", "status": "done", "files": ["tests/test_config_rede.py"], "tests_passed": 17}
-{"ts": "2026-08-11T20:06:41Z", "action": "T019", "status": "done", "files": ["segundo_cerebro/acervo/modelo.py"]}
-{"ts": "2026-08-11T20:06:41Z", "action": "T020", "status": "done", "files": ["segundo_cerebro/acervo/escrita.py"]}
-{"ts": "2026-08-11T20:06:41Z", "action": "T021", "status": "done", "files": ["segundo_cerebro/acervo/caminhos.py"]}
-{"ts": "2026-08-11T20:06:41Z", "action": "T022", "status": "done", "files": ["segundo_cerebro/acervo/caminhos.py"]}
-{"ts": "2026-08-11T20:06:41Z", "action": "T023", "status": "done", "files": ["segundo_cerebro/acervo/leitura.py"]}
-{"ts": "2026-08-11T20:06:41Z", "action": "T024", "status": "done", "files": ["segundo_cerebro/acervo/estado.py"]}
-{"ts": "2026-08-11T20:06:41Z", "action": "T025", "status": "done", "files": ["segundo_cerebro/acervo/indice.py"]}
-{"ts": "2026-08-11T20:06:41Z", "action": "T026", "status": "done", "files": ["segundo_cerebro/transcricao/whisper_local.py"]}
-{"ts": "2026-08-11T20:06:41Z", "action": "T027", "status": "done", "files": ["segundo_cerebro/transcricao/politica.py"]}
-{"ts": "2026-08-11T20:06:41Z", "action": "T028", "status": "done", "files": ["segundo_cerebro/transcricao/whisper_local.py"]}
-{"ts": "2026-08-11T20:06:41Z", "action": "T029", "status": "done", "files": ["segundo_cerebro/classificacao/fronteira.py"]}
-{"ts": "2026-08-11T20:06:41Z", "action": "T030", "status": "done", "files": ["segundo_cerebro/classificacao/adaptador.py", "pyproject.toml"]}
-{"ts": "2026-08-11T20:06:41Z", "action": "T031", "status": "done", "files": ["segundo_cerebro/classificacao/validacao.py"]}
-{"ts": "2026-08-11T20:06:41Z", "action": "T032", "status": "done", "files": ["segundo_cerebro/classificacao/duas_passagens.py"]}
-{"ts": "2026-08-11T20:06:41Z", "action": "T033", "status": "done", "files": ["segundo_cerebro/classificacao/erros.py"]}
-{"ts": "2026-08-11T20:06:41Z", "action": "T034", "status": "done", "files": ["segundo_cerebro/classificacao/custo.py"]}
-{"ts": "2026-08-11T20:06:41Z", "action": "T035", "status": "done", "files": ["segundo_cerebro/fila/modelo.py"]}
-{"ts": "2026-08-11T20:06:41Z", "action": "T036", "status": "done", "files": ["segundo_cerebro/fila/maquina.py"]}
-{"ts": "2026-08-11T20:06:41Z", "action": "T037", "status": "done", "files": ["segundo_cerebro/fila/executor.py"]}
+{"ts": "2026-08-11T20:06:41Z", "action": "T019", "status": "done", "files": ["memory_card/acervo/modelo.py"]}
+{"ts": "2026-08-11T20:06:41Z", "action": "T020", "status": "done", "files": ["memory_card/acervo/escrita.py"]}
+{"ts": "2026-08-11T20:06:41Z", "action": "T021", "status": "done", "files": ["memory_card/acervo/caminhos.py"]}
+{"ts": "2026-08-11T20:06:41Z", "action": "T022", "status": "done", "files": ["memory_card/acervo/caminhos.py"]}
+{"ts": "2026-08-11T20:06:41Z", "action": "T023", "status": "done", "files": ["memory_card/acervo/leitura.py"]}
+{"ts": "2026-08-11T20:06:41Z", "action": "T024", "status": "done", "files": ["memory_card/acervo/estado.py"]}
+{"ts": "2026-08-11T20:06:41Z", "action": "T025", "status": "done", "files": ["memory_card/acervo/indice.py"]}
+{"ts": "2026-08-11T20:06:41Z", "action": "T026", "status": "done", "files": ["memory_card/transcricao/whisper_local.py"]}
+{"ts": "2026-08-11T20:06:41Z", "action": "T027", "status": "done", "files": ["memory_card/transcricao/politica.py"]}
+{"ts": "2026-08-11T20:06:41Z", "action": "T028", "status": "done", "files": ["memory_card/transcricao/whisper_local.py"]}
+{"ts": "2026-08-11T20:06:41Z", "action": "T029", "status": "done", "files": ["memory_card/classificacao/fronteira.py"]}
+{"ts": "2026-08-11T20:06:41Z", "action": "T030", "status": "done", "files": ["memory_card/classificacao/adaptador.py", "pyproject.toml"]}
+{"ts": "2026-08-11T20:06:41Z", "action": "T031", "status": "done", "files": ["memory_card/classificacao/validacao.py"]}
+{"ts": "2026-08-11T20:06:41Z", "action": "T032", "status": "done", "files": ["memory_card/classificacao/duas_passagens.py"]}
+{"ts": "2026-08-11T20:06:41Z", "action": "T033", "status": "done", "files": ["memory_card/classificacao/erros.py"]}
+{"ts": "2026-08-11T20:06:41Z", "action": "T034", "status": "done", "files": ["memory_card/classificacao/custo.py"]}
+{"ts": "2026-08-11T20:06:41Z", "action": "T035", "status": "done", "files": ["memory_card/fila/modelo.py"]}
+{"ts": "2026-08-11T20:06:41Z", "action": "T036", "status": "done", "files": ["memory_card/fila/maquina.py"]}
+{"ts": "2026-08-11T20:06:41Z", "action": "T037", "status": "done", "files": ["memory_card/fila/executor.py"]}
 {"ts": "2026-08-11T20:13:54Z", "action": "T013", "status": "done", "files": ["tests/test_acervo_atomicidade.py"], "tests_passed": 7}
-{"ts": "2026-08-11T20:13:54Z", "action": "T014", "status": "done", "files": ["tests/test_acervo_id.py", "segundo_cerebro/acervo/caminhos.py"], "tests_passed": 20}
+{"ts": "2026-08-11T20:13:54Z", "action": "T014", "status": "done", "files": ["tests/test_acervo_id.py", "memory_card/acervo/caminhos.py"], "tests_passed": 20}
 {"ts": "2026-08-11T20:13:54Z", "action": "T015", "status": "done", "files": ["tests/test_fila.py"], "tests_passed": 10}
 {"ts": "2026-08-11T20:13:54Z", "action": "T016", "status": "done", "files": ["tests/test_classificacao_fronteira.py"], "tests_passed": 19}
-{"ts": "2026-08-11T20:13:54Z", "action": "T014", "status": "corrected", "nota": "ACERVO_TAMANHO_MAX_NOME passou a limitar o nome inteiro, nao so o fragmento do assunto", "files": ["segundo_cerebro/acervo/caminhos.py"]}
+{"ts": "2026-08-11T20:13:54Z", "action": "T014", "status": "corrected", "nota": "ACERVO_TAMANHO_MAX_NOME passou a limitar o nome inteiro, nao so o fragmento do assunto", "files": ["memory_card/acervo/caminhos.py"]}
 {"ts": "2026-08-11T20:31:33Z", "action": "T017", "status": "done", "files": ["tests/test_painel_confirmacao.py"]}
 {"ts": "2026-08-11T20:31:33Z", "action": "T018", "status": "done", "files": ["tests/test_digest_selecao.py"]}
-{"ts": "2026-08-11T20:31:33Z", "action": "T038", "status": "done", "files": ["segundo_cerebro/captura/polling.py"]}
-{"ts": "2026-08-11T20:31:33Z", "action": "T039", "status": "done", "files": ["segundo_cerebro/captura/autorizacao.py"]}
-{"ts": "2026-08-11T20:31:33Z", "action": "T040", "status": "done", "files": ["segundo_cerebro/captura/download.py"]}
-{"ts": "2026-08-11T20:31:33Z", "action": "T041", "status": "done", "files": ["segundo_cerebro/captura/respostas.py"]}
-{"ts": "2026-08-11T20:31:33Z", "action": "T042", "status": "done", "files": ["segundo_cerebro/captura/texto.py"]}
-{"ts": "2026-08-11T20:31:33Z", "action": "T043", "status": "done", "files": ["segundo_cerebro/captura/respostas.py"]}
-{"ts": "2026-08-11T20:31:33Z", "action": "T044", "status": "done", "files": ["segundo_cerebro/esteira.py"]}
-{"ts": "2026-08-11T20:31:33Z", "action": "T045", "status": "done", "files": ["segundo_cerebro/painel/servidor.py"]}
-{"ts": "2026-08-11T20:31:33Z", "action": "T046", "status": "done", "files": ["segundo_cerebro/painel/visao_periodo.py"]}
-{"ts": "2026-08-11T20:31:33Z", "action": "T047", "status": "done", "files": ["segundo_cerebro/painel/registro.py"]}
-{"ts": "2026-08-11T20:31:33Z", "action": "T048", "status": "done", "files": ["segundo_cerebro/painel/confirmacao.py"]}
-{"ts": "2026-08-11T20:31:33Z", "action": "T049", "status": "done", "files": ["segundo_cerebro/painel/filtros.py"]}
-{"ts": "2026-08-11T20:31:33Z", "action": "T050", "status": "done", "files": ["segundo_cerebro/digest/selecao.py"]}
-{"ts": "2026-08-11T20:31:33Z", "action": "T051", "status": "done", "files": ["segundo_cerebro/digest/montagem.py"]}
-{"ts": "2026-08-11T20:31:33Z", "action": "T052", "status": "done", "files": ["segundo_cerebro/digest/envio.py"]}
-{"ts": "2026-08-11T20:31:33Z", "action": "T053", "status": "done", "files": ["segundo_cerebro/digest/agendador.py"]}
-{"ts": "2026-08-11T20:31:33Z", "action": "T054", "status": "done", "files": ["segundo_cerebro/app.py"]}
-{"ts": "2026-08-11T20:35:12Z", "action": "T055", "status": "done", "files": ["segundo_cerebro/captura/respostas.py", "segundo_cerebro/esteira.py"]}
-{"ts": "2026-08-11T20:35:12Z", "action": "T056", "status": "done", "files": ["segundo_cerebro/painel/servidor.py", "segundo_cerebro/esteira.py"]}
-{"ts": "2026-08-11T20:35:12Z", "action": "T057", "status": "done", "files": ["segundo_cerebro/painel/servidor.py"]}
-{"ts": "2026-08-11T20:35:12Z", "action": "T058", "status": "done", "files": ["segundo_cerebro/painel/servidor.py", "segundo_cerebro/digest/montagem.py"]}
+{"ts": "2026-08-11T20:31:33Z", "action": "T038", "status": "done", "files": ["memory_card/captura/polling.py"]}
+{"ts": "2026-08-11T20:31:33Z", "action": "T039", "status": "done", "files": ["memory_card/captura/autorizacao.py"]}
+{"ts": "2026-08-11T20:31:33Z", "action": "T040", "status": "done", "files": ["memory_card/captura/download.py"]}
+{"ts": "2026-08-11T20:31:33Z", "action": "T041", "status": "done", "files": ["memory_card/captura/respostas.py"]}
+{"ts": "2026-08-11T20:31:33Z", "action": "T042", "status": "done", "files": ["memory_card/captura/texto.py"]}
+{"ts": "2026-08-11T20:31:33Z", "action": "T043", "status": "done", "files": ["memory_card/captura/respostas.py"]}
+{"ts": "2026-08-11T20:31:33Z", "action": "T044", "status": "done", "files": ["memory_card/esteira.py"]}
+{"ts": "2026-08-11T20:31:33Z", "action": "T045", "status": "done", "files": ["memory_card/painel/servidor.py"]}
+{"ts": "2026-08-11T20:31:33Z", "action": "T046", "status": "done", "files": ["memory_card/painel/visao_periodo.py"]}
+{"ts": "2026-08-11T20:31:33Z", "action": "T047", "status": "done", "files": ["memory_card/painel/registro.py"]}
+{"ts": "2026-08-11T20:31:33Z", "action": "T048", "status": "done", "files": ["memory_card/painel/confirmacao.py"]}
+{"ts": "2026-08-11T20:31:33Z", "action": "T049", "status": "done", "files": ["memory_card/painel/filtros.py"]}
+{"ts": "2026-08-11T20:31:33Z", "action": "T050", "status": "done", "files": ["memory_card/digest/selecao.py"]}
+{"ts": "2026-08-11T20:31:33Z", "action": "T051", "status": "done", "files": ["memory_card/digest/montagem.py"]}
+{"ts": "2026-08-11T20:31:33Z", "action": "T052", "status": "done", "files": ["memory_card/digest/envio.py"]}
+{"ts": "2026-08-11T20:31:33Z", "action": "T053", "status": "done", "files": ["memory_card/digest/agendador.py"]}
+{"ts": "2026-08-11T20:31:33Z", "action": "T054", "status": "done", "files": ["memory_card/app.py"]}
+{"ts": "2026-08-11T20:35:12Z", "action": "T055", "status": "done", "files": ["memory_card/captura/respostas.py", "memory_card/esteira.py"]}
+{"ts": "2026-08-11T20:35:12Z", "action": "T056", "status": "done", "files": ["memory_card/painel/servidor.py", "memory_card/esteira.py"]}
+{"ts": "2026-08-11T20:35:12Z", "action": "T057", "status": "done", "files": ["memory_card/painel/servidor.py"]}
+{"ts": "2026-08-11T20:35:12Z", "action": "T058", "status": "done", "files": ["memory_card/painel/servidor.py", "memory_card/digest/montagem.py"]}
 {"ts": "2026-08-11T20:35:12Z", "action": "T059", "status": "done", "files": ["README.md"]}
-{"ts": "2026-08-11T20:35:12Z", "action": "T060", "status": "blocked", "files": ["segundo_cerebro/medir.py"], "nota": "instrumento de medicao construido e executavel; a medicao em si depende de 20 audios reais do usuario e de chave de API valida"}
+{"ts": "2026-08-11T20:35:12Z", "action": "T060", "status": "blocked", "files": ["memory_card/medir.py"], "nota": "instrumento de medicao construido e executavel; a medicao em si depende de 20 audios reais do usuario e de chave de API valida"}
 {"ts": "2026-08-11T20:54:39Z", "action": "T060", "status": "corrected", "files": ["_reversa_forward/001-captura-voz-ao-arquivo/actions.md"], "nota": "acao dividida por decisao do usuario: o instrumento foi entregue e esta marcado concluido; a medicao em si saiu da lista de acoes de codigo e virou pendencia documentada no adendo, por depender de audios reais e chave de API"}

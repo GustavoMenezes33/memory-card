@@ -14,11 +14,11 @@ from __future__ import annotations
 
 import pytest
 
-from segundo_cerebro import app as A
-from segundo_cerebro import config as C
-from segundo_cerebro.captura.respostas import resposta_a_comando
-from segundo_cerebro.captura.texto import e_comando
-from segundo_cerebro.esteira import Esteira, item_de_mensagem
+from memory_card import app as A
+from memory_card import config as C
+from memory_card.captura.respostas import resposta_a_comando
+from memory_card.captura.texto import e_comando
+from memory_card.esteira import Esteira, item_de_mensagem
 
 USUARIO = 42
 

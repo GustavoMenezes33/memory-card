@@ -9,7 +9,7 @@ from __future__ import annotations
 
 import pytest
 
-from segundo_cerebro import config as C
+from memory_card import config as C
 from tests.conftest import BASE_VALIDA
 
 

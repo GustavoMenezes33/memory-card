@@ -17,9 +17,9 @@ from __future__ import annotations
 
 from pathlib import Path
 
-from segundo_cerebro.fila import modelo as FM
-from segundo_cerebro.fila.executor import ExecutorSerial
-from segundo_cerebro.fila.maquina import Maquina
+from memory_card.fila import modelo as FM
+from memory_card.fila.executor import ExecutorSerial
+from memory_card.fila.maquina import Maquina
 
 
 def esteira(registradas: list[str]) -> dict:

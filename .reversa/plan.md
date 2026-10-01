@@ -1,4 +1,4 @@
-# Plano de Exploração — segundocerebro
+# Plano de Exploração — memorycard
 
 > Criado pelo Reversa em 2026-08-11
 > Marque cada tarefa com ✅ quando concluída.

@@ -1,4 +1,4 @@
-# Guia de configuração — Segundo Cérebro
+# Guia de configuração — Memory Card
 
 Da instalação até a primeira captura funcionando. Siga na ordem: cada passo só
 faz sentido se o anterior deu certo.
@@ -39,7 +39,7 @@ python -c "import faster_whisper, anthropic, flask; print('ok')"
 2. Envie `/newbot`
 3. Escolha um **nome** (aparece no chat, pode ter espaços e acentos)
 4. Escolha um **username** — precisa terminar em `bot`, por exemplo
-   `gustavo_segundo_cerebro_bot`
+   `gustavo_memory_card_bot`
 5. O BotFather responde com o token, no formato
    `123456789:AAH8kQwErTyUiOpAsDfGhJkLzXcVbNm1234`
 
@@ -172,7 +172,7 @@ Antes de iniciar de verdade, apague o valor de `TELEGRAM_USUARIO_AUTORIZADO`,
 deixando a linha vazia, e rode:
 
 ```bash
-segundo-cerebro
+memory-card
 ```
 
 **Esperado:** o sistema recusa iniciar e diz qual parâmetro está faltando.
@@ -192,10 +192,10 @@ que descobrisse o nome dele. Restaure o valor e siga.
 ## Passo 7 · Iniciar
 
 ```bash
-segundo-cerebro
+memory-card
 ```
 
-Equivalente, se preferir: `python -m segundo_cerebro.app`
+Equivalente, se preferir: `python -m memory_card.app`
 
 Um comando sobe as três coisas:
 
@@ -309,7 +309,7 @@ dia pensando nisso: quanto mais cedo na semana, maior a folga.
 Depois de uma semana capturando, com uns vinte áudios reais:
 
 ```bash
-python -m segundo_cerebro.medir dados/audios
+python -m memory_card.medir dados/audios
 ```
 
 Ele transcreve, classifica e pergunta amostra por amostra se você aceitaria

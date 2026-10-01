@@ -1,5 +1,5 @@
 [project]
-name = "segundo-cerebro"
+name = "memory-card"
 version = "0.1.0"
 description = "Captura de insights por voz em mobilidade, com transcrição local e classificação por modelo de linguagem"
 requires-python = ">=3.10"
@@ -18,14 +18,14 @@ dev = [
 ]
 
 [project.scripts]
-segundo-cerebro = "segundo_cerebro.app:main"
+memory-card = "memory_card.app:main"
 
 [build-system]
 requires = ["setuptools>=68"]
 build-backend = "setuptools.build_meta"
 
 [tool.setuptools.packages.find]
-include = ["segundo_cerebro*"]
+include = ["memory_card*"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]

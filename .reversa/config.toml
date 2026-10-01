@@ -2,7 +2,7 @@
 # Este arquivo é gerenciado pelo instalador. Para customizações, edite config.user.toml
 
 [project]
-name = "segundocerebro"
+name = "memorycard"
 version = "1.0.0"
 
 [user]

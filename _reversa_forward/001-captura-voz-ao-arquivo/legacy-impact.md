@@ -14,10 +14,10 @@
 | `pyproject.toml` | scaffolding | componente-novo | LOW | Estrutura de pacote e declaração de dependências. Sem lógica de negócio |
 | `.env.example` | `configuracao` | componente-novo | LOW | Documenta os 39 parâmetros das seções 9.1 das seis specs. Nenhum segredo real |
 | `.gitignore` | `configuracao` | componente-novo | MEDIUM | Mantém `.env` e a pasta de dados fora do versionamento. Falha aqui vazaria segredos e o acervo pessoal |
-| `segundo_cerebro/config.py` | `configuracao` | componente-novo | HIGH | Concentra as três garantias de inicialização: obrigatórios, loopback e coerência do painel. Defeito aqui vira modo permissivo ou painel exposto |
-| `segundo_cerebro/log.py` | transversal | componente-novo | MEDIUM | Log estruturado com mascaramento de segredo e proibição de registrar conteúdo capturado |
+| `memory_card/config.py` | `configuracao` | componente-novo | HIGH | Concentra as três garantias de inicialização: obrigatórios, loopback e coerência do painel. Defeito aqui vira modo permissivo ou painel exposto |
+| `memory_card/log.py` | transversal | componente-novo | MEDIUM | Log estruturado com mascaramento de segredo e proibição de registrar conteúdo capturado |
 | `config/prompt_classificacao.txt` | `classificacao-ia` | componente-novo | MEDIUM | Sustenta o RF-10 da spec: prompt fora do código, editável sem alteração de implementação |
-| `segundo_cerebro/**/__init__.py` | scaffolding | componente-novo | LOW | Módulos vazios que delimitam as fronteiras dos seis componentes mais a fila |
+| `memory_card/**/__init__.py` | scaffolding | componente-novo | LOW | Módulos vazios que delimitam as fronteiras dos seis componentes mais a fila |
 | `tests/conftest.py` | `configuracao` | componente-novo | MEDIUM | Isolamento do ambiente de teste: nenhum teste lê o `.env` real nem escreve na pasta de dados real |
 | `tests/test_config.py` | `configuracao` | componente-novo | HIGH | 21 testes sobre a validação de obrigatórios, incluindo a garantia de que campo vazio nunca vira modo permissivo |
 | `tests/test_config_rede.py` | `configuracao` / `painel-acompanhamento` | componente-novo | HIGH | 17 testes sobre a restrição de loopback e a coerência entre o painel e os links do digest |

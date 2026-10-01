@@ -21,13 +21,13 @@ from datetime import datetime, timedelta, timezone
 
 import pytest
 
-from segundo_cerebro import config as C
-from segundo_cerebro.acervo import caminhos as CA
-from segundo_cerebro.acervo import indice as IDX
-from segundo_cerebro.acervo.escrita import gravar_registro
-from segundo_cerebro.acervo.modelo import Estado, Origem, Registro
-from segundo_cerebro.painel import confirmacao as CONF
-from segundo_cerebro.painel.servidor import criar_app
+from memory_card import config as C
+from memory_card.acervo import caminhos as CA
+from memory_card.acervo import indice as IDX
+from memory_card.acervo.escrita import gravar_registro
+from memory_card.acervo.modelo import Estado, Origem, Registro
+from memory_card.painel import confirmacao as CONF
+from memory_card.painel.servidor import criar_app
 
 BASE = datetime(2026, 8, 1, 10, 0, tzinfo=timezone.utc)
 

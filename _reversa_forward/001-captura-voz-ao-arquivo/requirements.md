@@ -32,7 +32,7 @@
 | `_reversa_sdd/sdd/acervo-markdown.md#6-requisitos-funcionais` | Arquivo markdown por registro, pastas derivadas da data, escrita atômica, identificador estável | 🟡 |
 | `_reversa_sdd/sdd/digest-semanal.md#6-requisitos-funcionais` | Envio semanal por e-mail, mais antigos primeiro, links de marcação, envio mesmo sem pendentes | 🟡 |
 | `_reversa_sdd/sdd/painel-acompanhamento.md#6-requisitos-funcionais` | Escuta apenas em loopback, páginas de confirmação, contagens do período | 🟡 |
-| `_reversa_sdd/brainstorms/001-segundo-cerebro-anotacoes/decision.md#a-validar-antes-de-comprometer` | Teste Mago de Oz obrigatório antes de qualquer código, corte em discordância acima de um em cinco | 🟡 |
+| `_reversa_sdd/brainstorms/001-memory-card-anotacoes/decision.md#a-validar-antes-de-comprometer` | Teste Mago de Oz obrigatório antes de qualquer código, corte em discordância acima de um em cinco | 🟡 |
 
 ## 3. Personas e cenários de uso
 

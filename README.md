@@ -1,4 +1,4 @@
-# Segundo Cérebro
+# Memory Card
 
 Captura de insights por voz em mobilidade. Você fala no Telegram, o áudio é
 transcrito na sua máquina, um modelo de linguagem extrai assunto, tipo e
@@ -79,7 +79,7 @@ O número em `message.from.id` é o valor de `TELEGRAM_USUARIO_AUTORIZADO`.
 ## Executar
 
 ```bash
-segundo-cerebro          # ou: python -m segundo_cerebro.app
+memory-card          # ou: python -m memory_card.app
 ```
 
 Um comando sobe tudo: o consumidor do Telegram, o painel em
@@ -126,7 +126,7 @@ marcar, há defeito sério: clientes de e-mail pré-carregam links.
 ## Medir a qualidade da classificação
 
 ```bash
-python -m segundo_cerebro.medir <pasta-com-audios>
+python -m memory_card.medir <pasta-com-audios>
 ```
 
 Transcreve os áudios, classifica, pergunta amostra por amostra se você aceitaria

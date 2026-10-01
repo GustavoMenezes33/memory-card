@@ -29,10 +29,10 @@ def _data_curta(iso: str) -> str:
 
 def assunto_do_email(selecao: Selecao, quando: datetime) -> str:
     if selecao.vazia:
-        return f"Segundo Cérebro · nada pendente ({quando:%d/%m})"
+        return f"Memory Card · nada pendente ({quando:%d/%m})"
     quantidade = len(selecao.incluidos)
     plural = "registro" if quantidade == 1 else "registros"
-    return f"Segundo Cérebro · {quantidade} {plural} para revisitar ({quando:%d/%m})"
+    return f"Memory Card · {quantidade} {plural} para revisitar ({quando:%d/%m})"
 
 
 def corpo_texto(selecao: Selecao, url_base: str) -> str:

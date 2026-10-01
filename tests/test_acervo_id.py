@@ -17,10 +17,10 @@ from pathlib import Path
 
 import pytest
 
-from segundo_cerebro.acervo import caminhos as C
-from segundo_cerebro.acervo.escrita import gravar_registro
-from segundo_cerebro.acervo.leitura import ler_registro
-from segundo_cerebro.acervo.modelo import Origem, Registro
+from memory_card.acervo import caminhos as C
+from memory_card.acervo.escrita import gravar_registro
+from memory_card.acervo.leitura import ler_registro
+from memory_card.acervo.modelo import Origem, Registro
 
 QUANDO = datetime(2026, 8, 11, 14, 30, 52, tzinfo=timezone.utc)
 

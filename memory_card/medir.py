@@ -14,7 +14,7 @@ número otimista que o sistema real não reproduz: a entrada verdadeira vem de
 
 Uso:
 
-    python -m segundo_cerebro.medir  <pasta-com-audios>
+    python -m memory_card.medir  <pasta-com-audios>
 
 Grava o resultado em `_reversa_forward/001-captura-voz-ao-arquivo/medicao-classificacao.md`.
 """
@@ -200,7 +200,7 @@ def relatorio(amostras: list[Amostra], cfg: C.Config) -> str:
     linhas += [
         "",
         "---",
-        "Gerado por `python -m segundo_cerebro.medir`",
+        "Gerado por `python -m memory_card.medir`",
     ]
     return "\n".join(linhas) + "\n"
 

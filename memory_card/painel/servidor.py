@@ -178,8 +178,8 @@ def criar_app(cfg: Config):
             else ""
         )
         return _pagina(
-            "Segundo Cérebro",
-            f"<h1>Segundo Cérebro</h1><p class='meta'>{meta}</p>"
+            "Memory Card",
+            f"<h1>Memory Card</h1><p class='meta'>{meta}</p>"
             f'<div class="n">{contagens}</div>{busca}{legenda}<ul>{itens}</ul>',
         )
 
