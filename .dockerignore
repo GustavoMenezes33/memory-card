@@ -1,0 +1,31 @@
+# Segredos e dados pessoais nunca entram na imagem.
+.env
+.env.*
+!.env.example
+dados/
+
+# Controle de versão e ferramentas
+.git
+.gitignore
+.claude/
+.agents/
+.reversa/
+_reversa_sdd/
+_reversa_docs/
+_reversa_forward/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+.pytest_cache/
+tests/
+
+# Docker e documentação
+Dockerfile
+docker-compose*.yml
+*.md

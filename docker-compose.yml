@@ -1,0 +1,35 @@
+services:
+  memory-card:
+    build:
+      context: .
+      args:
+        APP_UID: ${APP_UID:-1000}
+        APP_GID: ${APP_GID:-1000}
+    image: memory-card:latest
+    container_name: memory-card
+    restart: unless-stopped
+
+    # Rede do host: o painel continua escutando só em 127.0.0.1, como exige a
+    # validação de loopback, e fica acessível na própria VPS (túnel SSH ou
+    # `tailscale serve`). Nenhuma porta é publicada para fora.
+    network_mode: host
+
+    env_file: .env
+    environment:
+      TZ: ${TZ:-America/Sao_Paulo}
+
+    volumes:
+      # Acervo, índice, fila, áudios, estado do polling e modelos do Whisper.
+      - ./dados:/app/dados
+      # Prompt editável sem rebuild.
+      - ./config:/app/config:ro
+
+    # O Whisper `small` em int8 usa ~1-1,5 GB durante a transcrição.
+    mem_limit: 2g
+    stop_grace_period: 30s
+
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"
